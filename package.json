@@ -1,5 +1,5 @@
 {
-  "homepage" :  "https://github.com/UnderratedBeast/MyFRA.git",
+  "homepage": "https://github.com/UnderratedBeast/MyFRA.git",
   "name": "fitclub",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "react-onclickoutside": "^6.12.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
+    "sweetalert2": "^11.14.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -24,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

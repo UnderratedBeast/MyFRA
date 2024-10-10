@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import './Join.css'
 import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert2'
 
 function Join() {
     const form = useRef()
@@ -14,10 +15,18 @@ function Join() {
       )
       .then(
         () => {
-          alert('SUCCESS!');
+          Swal.fire({
+            title: "Thanks For Joining!!",
+            text: "SENT!!!",
+            icon: "success"
+          });
         },
         (error) => {
-          alert('FAILED...', error.text);
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!"
+          });
         },
       );
   };
