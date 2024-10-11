@@ -54,6 +54,10 @@
     color: white;
 }
 
+.btn-join:hover {
+    background-color: rgb(253, 99, 43);
+}
+
 @media screen and (max-width: 768px) {
     .Join {
         flex-direction: column;

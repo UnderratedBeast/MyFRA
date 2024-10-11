@@ -110,4 +110,7 @@
         bottom: 0;
         left: 0;
     }
+    .arrows>img {
+        margin-right: 1.3rem;
+    }
 }
